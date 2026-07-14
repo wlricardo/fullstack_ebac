@@ -72,3 +72,22 @@ section p {
 .store-front {
     margin-right: 32px;
 }
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ESTILO 8 : SEÇÃO 'FALE CONOSCO' */
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
