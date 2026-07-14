@@ -22,7 +22,8 @@ header nav li {
 
 header nav li a {
     color: #ecf0f1;
-    text-decoration: none; /* Remove o underline dos links */
+    text-decoration: none;
+    /* Remove o underline dos links */
 }
 
 /* ESTILO 3 : Estilização da classe container */
@@ -33,8 +34,41 @@ header nav li a {
 }
 
 /* ESTILO 4 : Sobrescreve o CSS do container dentro deo header */
-header .container {
-    display: flex; /* Os itens do cabeçalho ficam lado a lado */
+header .container,
+section .container {
+    display: flex;
+    /* Os itens do cabeçalho ficam lado a lado */
     align-items: center;
     justify-content: space-between;
+}
+
+/* ESTILO 5 : Altura das logos */
+.brands-list img {
+    height: 24px;
+}
+
+/* ESTILO 6 : */
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/* ESTILO 7 : */
+.store-front {
+    margin-right: 32px;
 }
